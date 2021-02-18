@@ -45,6 +45,16 @@ class MyDrawer extends StatelessWidget {
               "Email",
               textScaleFactor: 1.2,
             ),
+          ),
+          ListTile(
+            leading: Icon(
+              CupertinoIcons.photo_camera,
+              color: Colors.black,
+            ),
+            title: Text(
+              "Gallery",
+              textScaleFactor: 1.2,
+            ),
           )
         ],
       ),
